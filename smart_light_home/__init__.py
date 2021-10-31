@@ -11,7 +11,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             "data": [
                 {
                     "status": "Light is ON",
-                     "environment": "Home"
+                    "environment": "Home"
                 }
             ]
 
