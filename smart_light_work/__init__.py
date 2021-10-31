@@ -8,8 +8,12 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     return func.HttpResponse(
         json.dumps({
-            "data": "Light is ON",
-            "environment": "Work"
+            "data": [
+                {
+                    "status": "Light is ON",
+                    "environment": "Home"
+                }
+            ]
 
         })
     )
