@@ -10,8 +10,8 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         json.dumps({
             "data": [
                 {
-                    "status": "Light is ON",
-                    "environment": "Home"
+                    "id": "Work",
+                    "url": "https://ifttt-service.azurewebsites.net/ifttt/v1/actions/smart_light_work?command=on"
                 }
             ]
 
